@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score
 import os
 
 # Load dataset
-file_path = "C:/Users/gaura/Documents/heartt.csv"
+file_path = "heartt.csv"
 try:
     dataset = pd.read_csv(file_path)
 except FileNotFoundError:
