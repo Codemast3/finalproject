@@ -135,8 +135,8 @@ if not is_trained:
     load_model()
 
 # Train model button
-if st.sidebar.button("Train Model"):
-    train_model()
+#if st.sidebar.button("Train Model"):
+ #   train_model()
 
 # Prediction button
 if st.sidebar.button("Predict"):
