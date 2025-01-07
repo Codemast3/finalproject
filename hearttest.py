@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score
 import os
 
 # Load dataset
-file_path = "C:/Users/gaura/Documents/heartt.csv"
+file_path = "C:/Users/gaura/finalproject/heartt.csv"
 try:
     dataset = pd.read_csv(file_path)
 except FileNotFoundError:
@@ -22,7 +22,7 @@ except FileNotFoundError:
     exit()
 
 # Model file path
-model_file_path = "C:/Users/gaura/Documents/heart_model.pkl"
+model_file_path = "C:/Users/gaura/finalproject/heart_model.pkl"
 
 # Train model function
 def train_model():
