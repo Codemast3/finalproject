@@ -22,7 +22,7 @@ except FileNotFoundError:
     exit()
 
 # Model file path
-model_file_path = "C:/Users/gaura/Documents/heart_model.pkl"
+model_file_path = "heart_model.pkl"
 
 # Train model function
 def train_model():
